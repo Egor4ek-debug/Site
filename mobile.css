@@ -1,6 +1,9 @@
-@media (min-width:501px) {
+@media (min-width:400px) {
     .menu input[type="checkbox"], .menu label {
         display: none;
+    }
+    .logo p span:first-child{
+        font-size: 10px;
     }
 } 
 @media (max-width:1024px) {

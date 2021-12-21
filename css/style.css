@@ -225,8 +225,6 @@ header nav ul li a {
 }
 
 
-
-
 .content_right .bottom {
     flex-basis:67%;
     background: linear-gradient(#d7e0d3,#d6e1d2);
@@ -259,17 +257,7 @@ header nav ul li a {
     margin:5px 0;
     color:#4b7c0c;
 }
-.news_links {
-    width:80%;
-    margin: 40px auto 0;
-}
-.news_links a:hover {
-    text-decoration: underline;
-}
-.news_links a:before {
-    content:"\00BB";
-    margin-right: 10px;
-}
+
 .content_right .bottom > a {
     color:#000;
     font-weight: bold;
@@ -324,4 +312,18 @@ footer p a {
 } 
 footer p a:hover {
     text-decoration: underline;
+}
+#clock{
+    color: white;
+     text-transform: uppercase;
+      font-size: 25px;
+}
+#time{
+    color: white;
+    text-transform: uppercase;
+     font-size: 25px;
+}
+.description p a{
+text-decoration: none;
+    color: #413519;
 }
