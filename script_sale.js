@@ -1,3 +1,4 @@
+ //таймер до окочания акции
  function timer(){
     let today = new Date();
     Hour_today = today.getHours();

@@ -1,3 +1,4 @@
+//Приветствие в зависмости от времени
 let Data = new Date();
 
 let Hour = Data.getHours();
@@ -16,7 +17,7 @@ else if (14<Hour && Hour<=18){
 else {
     div.innerHTML=`<span style = "color: white; text-transform: uppercase; font-size: 25px">Доброй ночи</span>`;
 }
-
+//Вывод времени, проведённого пользователем на сайте.
 let seconds = 0;
 let minutes  = 0;
 
@@ -31,7 +32,7 @@ function clock(){
 }
 
 setInterval(clock,1000);
-
+//Вывод текущего времени
 function time(){
     var date = new Date();
     var hours = date.getHours();
@@ -48,7 +49,7 @@ function time(){
     setInterval(time, 1000);
 
  
-    
+//Получение и вывод координат пользователя
 let button = document.getElementById('getLocation');
 button.innerHTML = `<button>Узнай свои координаты</button>`
 button.addEventListener('click',()=>{
@@ -64,7 +65,7 @@ function getLocation(position) {
         newWin.close();
     },20000);
  }
-
+//Игра в "Угадай число"
 place_play = document.getElementById('play_time');
 place_play.innerHTML = `<button>Хочешь поиграть?</button>`
 
